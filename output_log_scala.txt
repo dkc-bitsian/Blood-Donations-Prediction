@@ -1,0 +1,244 @@
+features correlation
+f12=-0.18218385752161162
+f13=-0.18218385752161162
+f14=0.21388931063363992
+f23=0.9999999999999982
+f24=0.7137783001823894
+f34=0.7137783001823894
+//////////// RANDOM FOREST MODEL ////////////////////////////////
+CREATING THE RANDOM FOREST MODEL
+The accuracy of random forest for parameters max_depth=2; num_trees=5 = 0.7401574803149606
+The accuracy of random forest for parameters max_depth=2; num_trees=10 = 0.7480314960629921
+The accuracy of random forest for parameters max_depth=2; num_trees=15 = 0.7401574803149606
+The accuracy of random forest for parameters max_depth=2; num_trees=20 = 0.7401574803149606
+The accuracy of random forest for parameters max_depth=3; num_trees=5 = 0.7559055118110236
+The accuracy of random forest for parameters max_depth=3; num_trees=10 = 0.7716535433070866
+The accuracy of random forest for parameters max_depth=3; num_trees=15 = 0.7874015748031497
+The accuracy of random forest for parameters max_depth=3; num_trees=20 = 0.7874015748031497
+The accuracy of random forest for parameters max_depth=4; num_trees=5 = 0.8031496062992126
+The accuracy of random forest for parameters max_depth=4; num_trees=10 = 0.8188976377952756
+The accuracy of random forest for parameters max_depth=4; num_trees=15 = 0.8110236220472441
+The accuracy of random forest for parameters max_depth=4; num_trees=20 = 0.8031496062992126
+The accuracy of random forest for parameters max_depth=5; num_trees=5 = 0.8110236220472441
+The accuracy of random forest for parameters max_depth=5; num_trees=10 = 0.8188976377952756
+The accuracy of random forest for parameters max_depth=5; num_trees=15 = 0.8031496062992126
+The accuracy of random forest for parameters max_depth=5; num_trees=20 = 0.7952755905511811
+The accuracy of random forest for parameters max_depth=6; num_trees=5 = 0.8188976377952756
+The accuracy of random forest for parameters max_depth=6; num_trees=10 = 0.8110236220472441
+The accuracy of random forest for parameters max_depth=6; num_trees=15 = 0.8267716535433071
+The accuracy of random forest for parameters max_depth=6; num_trees=20 = 0.7874015748031497
+
+The final random forest model selected has parameters max_depth=6.0; num_trees=15.0
+This selected rf model has accuracy=0.8267716535433071 F Measure=0.8127209098862641 Weighted Recall=0.8267716535433071 weighted Precision0.8194282318483774
+
+//////////// MULTILAYER PERCEPTRON MODEL ////////////////////////////////
+ 1 Hidden layer ANN
+The accuracies for various parameters of the hidden layer are
+0.7637795275590551
+0.7874015748031497
+0.7401574803149606
+0.8031496062992126
+0.7952755905511811
+0.8031496062992126
+0.7874015748031497
+0.7795275590551181
+0.7795275590551181
+0.7795275590551181
+The best ANN model with 1 hidden layer gave accuracy=0.8031496062992126and has 4.0 in its hidden layer
+This ann model has accuracy=0.8031496062992126 F Measure=0.7671074608496904 Weighted Recall=0.8031496062992126 weighted Precision0.8086614173228346
+
+ 2 hidden layer ANN
+The accuracies for various parameters of the hidden layers are
+0.7637795275590551
+0.7716535433070866
+0.7795275590551181
+0.7795275590551181
+0.7795275590551181
+0.7795275590551181
+0.7716535433070866
+0.7559055118110236
+0.7637795275590551
+0.7716535433070866
+0.7952755905511811
+0.8110236220472441
+0.7795275590551181
+0.7952755905511811
+0.7874015748031497
+0.7795275590551181
+0.7874015748031497
+0.7952755905511811
+0.7874015748031497
+0.7874015748031497
+0.8031496062992126
+0.8031496062992126
+0.7874015748031497
+0.8110236220472441
+0.8031496062992126
+0.7874015748031497
+0.7952755905511811
+0.8031496062992126
+0.7874015748031497
+0.8031496062992126
+0.7716535433070866
+0.8031496062992126
+0.8031496062992126
+0.8031496062992126
+0.8031496062992126
+0.8031496062992126
+0.7952755905511811
+0.8031496062992126
+0.7795275590551181
+0.8031496062992126
+0.7874015748031497
+0.7874015748031497
+0.7795275590551181
+0.7952755905511811
+0.8031496062992126
+0.7874015748031497
+0.7952755905511811
+0.7952755905511811
+0.8031496062992126
+0.7952755905511811
+0.8031496062992126
+0.8031496062992126
+0.7952755905511811
+0.7952755905511811
+0.7874015748031497
+0.7952755905511811
+0.8031496062992126
+0.7952755905511811
+0.7874015748031497
+0.8031496062992126
+0.8031496062992126
+0.8031496062992126
+0.8031496062992126
+0.7952755905511811
+0.7874015748031497
+0.7874015748031497
+0.7874015748031497
+0.7795275590551181
+0.7952755905511811
+0.7952755905511811
+0.7952755905511811
+0.7952755905511811
+0.7874015748031497
+0.7795275590551181
+0.8031496062992126
+0.8031496062992126
+0.8031496062992126
+0.8031496062992126
+0.7952755905511811
+0.8031496062992126
+0.7952755905511811
+0.7874015748031497
+0.7952755905511811
+0.7795275590551181
+0.7874015748031497
+0.8031496062992126
+0.8031496062992126
+0.7952755905511811
+0.8110236220472441
+0.7874015748031497
+0.8031496062992126
+0.7952755905511811
+0.7952755905511811
+0.8031496062992126
+0.8031496062992126
+0.7952755905511811
+0.7874015748031497
+0.7952755905511811
+0.7874015748031497
+0.7952755905511811
+The best ANN model with 2 hidden layers gave accuracy=0.8110236220472441and has 2.0 in its 1st hidden layer and 2.0 nodes in 2nd
+Best ann model has 2 hidden layers and accuracy=0.8110236220472441 F Measure=0.7956955380577428 Weighted Recall=0.8110236220472441 weighted Precision0.8000721607912218
+
+
+//////////// GRADIENT BOOSTED TREE MODEL ////////////////////////////////
+GB Model with parameters #trees=2 ;#maxtreedepth=2 has accuracy=0.7401574803149606
+GB Model with parameters #trees=2 ;#maxtreedepth=3 has accuracy=0.8188976377952756
+GB Model with parameters #trees=2 ;#maxtreedepth=4 has accuracy=0.8031496062992126
+GB Model with parameters #trees=4 ;#maxtreedepth=2 has accuracy=0.7716535433070866
+GB Model with parameters #trees=4 ;#maxtreedepth=3 has accuracy=0.8188976377952756
+GB Model with parameters #trees=4 ;#maxtreedepth=4 has accuracy=0.7952755905511811
+GB Model with parameters #trees=8 ;#maxtreedepth=2 has accuracy=0.7795275590551181
+GB Model with parameters #trees=8 ;#maxtreedepth=3 has accuracy=0.8188976377952756
+GB Model with parameters #trees=8 ;#maxtreedepth=4 has accuracy=0.7952755905511811
+GB Model with parameters #trees=10 ;#maxtreedepth=2 has accuracy=0.7795275590551181
+GB Model with parameters #trees=10 ;#maxtreedepth=3 has accuracy=0.8031496062992126
+GB Model with parameters #trees=10 ;#maxtreedepth=4 has accuracy=0.8110236220472441
+GB Model with parameters #trees=12 ;#maxtreedepth=2 has accuracy=0.7795275590551181
+GB Model with parameters #trees=12 ;#maxtreedepth=3 has accuracy=0.8110236220472441
+GB Model with parameters #trees=12 ;#maxtreedepth=4 has accuracy=0.8110236220472441
+GB Model with parameters #trees=14 ;#maxtreedepth=2 has accuracy=0.7795275590551181
+GB Model with parameters #trees=14 ;#maxtreedepth=3 has accuracy=0.8110236220472441
+GB Model with parameters #trees=14 ;#maxtreedepth=4 has accuracy=0.8110236220472441
+
+The best GB model has parameters #trees=2.0 #maxdepth=3.0
+This GB model has accuracy=0.8188976377952756 F Measure=0.8114048325445631 Weighted Recall=0.8188976377952756 weighted Precision0.8101240772169283
+
+import org.apache.spark.ml.feature.{IndexToString, StringIndexer, VectorIndexer}
+import org.apache.spark.ml.feature.VectorAssembler
+import spark.implicits._
+import org.apache.spark.sql.types.{StructType, StructField, IntegerType, StringType, DoubleType}
+import org.apache.spark.ml.clustering.KMeans
+import org.apache.spark.ml.feature.MinMaxScaler
+import org.apache.spark.ml.classification.{BinaryLogisticRegressionSummary, LogisticRegression}
+import org.apache.spark.ml.classification.MultilayerPerceptronClassifier
+import org.apache.spark.ml.evaluation.MulticlassClassificationEvaluator
+import org.apache.spark.ml.classification.{RandomForestClassificationModel, RandomForestClassifier}
+import org.apache.spark.ml.tuning.{CrossValidator, ParamGridBuilder}
+import org.apache.spark.ml.evaluation.BinaryClassificationEvaluator
+import org.apache.spark.ml.classification.MultilayerPerceptronClassifier
+import org.apache.spark.ml.evaluation.MulticlassClassificationEvaluator
+import org.apache.spark.ml.classification.{GBTClassificationModel, GBTClassifier}
+import org.apache.spark.mllib.stat.Statistics
+defined class Types
+defined class Type
+df: org.apache.spark.sql.DataFrame = [fe0: int, fe1: double ... 4 more fields]
+feat1: org.apache.spark.rdd.RDD[Double] = MapPartitionsRDD[40772] at map at <console>:146
+feat2: org.apache.spark.rdd.RDD[Double] = MapPartitionsRDD[40777] at map at <console>:147
+feat3: org.apache.spark.rdd.RDD[Double] = MapPartitionsRDD[40782] at map at <console>:148
+feat4: org.apache.spark.rdd.RDD[Double] = MapPartitionsRDD[40787] at map at <console>:149
+f12: Double = -0.18218385752161162
+f13: Double = -0.18218385752161162
+f14: Double = 0.21388931063363992
+f23: Double = 0.9999999999999982
+f24: Double = 0.7137783001823894
+f34: Double = 0.7137783001823894
+dataset: org.apache.spark.sql.DataFrame = [fe0: int, fe1: double ... 5 more fields]
+scaled_dataset: org.apache.spark.sql.DataFrame = [fe0: int, fe1: double ... 6 more fields]
+train: org.apache.spark.sql.Dataset[org.apache.spark.sql.Row] = [fe0: int, fe1: double ... 6 more fields]
+test: org.apache.spark.sql.Dataset[org.apache.spark.sql.Row] = [fe0: int, fe1: double ... 6 more fields]
+evaluator: org.apache.spark.ml.evaluation.MulticlassClassificationEvaluator = mcEval_1cb9dbfd5e10
+max_depth: List[Int] = List(2, 3, 4, 5, 6)
+num_trees: List[Int] = List(5, 10, 15, 20)
+acc_rf: Double = 0.8267716535433071
+md: Double = 6.0
+nt: Double = 15.0
+f1: Double = 0.0
+recall: Double = 0.0
+precision: Double = 0.0
+f1_rf: Double = 0.8127209098862641
+wp_rf: Double = 0.8194282318483774
+wc_rf: Double = 0.8267716535433071
+acc_ann: Double = 0.8031496062992126
+layers: Array[Int] = Array(3, 10, 10, 2)
+hidden_number: List[Int] = List(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+hidden_nodes: Double = 4.0
+f1_ann: Double = 0.7671074608496904
+wp_ann: Double = 0.8086614173228346
+wc_ann: Double = 0.8031496062992126
+hidden1: Double = 2.0
+hidden2: Double = 2.0
+f1_2ann: Double = 0.7956955380577428
+wc_2ann: Double = 0.8110236220472441
+wp_2ann: Double = 0.8000721607912218
+acc_2ann: Double = 0.8110236220472441
+trees: List[Int] = List(2, 4, 8, 10, 12, 14)
+dept: List[Int] = List(2, 3, 4)
+acc_gb: Double = 0.8188976377952756
+no_tr: Double = 2.0
+depth_gb: Double = 3.0
+f1_gb: Double = 0.8114048325445631
+wc_gb: Double = 0.8188976377952756
+wp_gb: Double = 0.8101240772169283
